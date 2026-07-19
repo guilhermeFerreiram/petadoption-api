@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Host/">
+    <Project Path="src/Host/PetAdoption.Api/PetAdoption.Api.csproj" />
+  </Folder>
+</Solution>
