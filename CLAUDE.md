@@ -14,7 +14,7 @@ Backend do site de adoção de pets. Projeto de estudo (Clean Architecture, DDD,
 ## Comandos
 
 - Build: `dotnet build`
-- Testes (rodar sempre antes de abrir PR):
+- Testes:
   - `dotnet test --filter Category=Unit`
   - `dotnet test --filter Category=Integration` (Testcontainers + Postgres real)
   - `dotnet test --filter Category=Architecture` (NetArchTest — valida as regras de dependência abaixo)
@@ -119,5 +119,3 @@ PetAdoption.sln
 ## Comportamento esperado nas sessões
 
 - Sempre apresentar o plano de implementação (modo Plan) antes de tocar em código, e esperar aprovação
-- Sempre rodar os testes de arquitetura antes de abrir PR
-- Seguir Conventional Commits e a convenção de branch `feature/PET-<numero>-descricao-curta`
