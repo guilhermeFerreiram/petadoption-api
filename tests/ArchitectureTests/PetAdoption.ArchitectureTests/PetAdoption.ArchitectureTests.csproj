@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="NetArchTest.Rules" Version="1.3.2" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\BuildingBlocks\BuildingBlocks.Domain\BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Identity\Identity.Domain\Identity.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Identity\Identity.Application\Identity.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\Identity\Identity.Infrastructure\Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\PetPublishing\PetPublishing.Domain\PetPublishing.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\PetPublishing\PetPublishing.Application\PetPublishing.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\PetPublishing\PetPublishing.Infrastructure\PetPublishing.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\PetPublishing\PetPublishing.Contracts\PetPublishing.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\InterestMatching\InterestMatching.Domain\InterestMatching.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\InterestMatching\InterestMatching.Application\InterestMatching.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\InterestMatching\InterestMatching.Infrastructure\InterestMatching.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\src\Modules\InterestMatching\InterestMatching.Contracts\InterestMatching.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\Host\PetAdoption.Api\PetAdoption.Api.csproj" />
+  </ItemGroup>
+</Project>

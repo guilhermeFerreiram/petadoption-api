@@ -1,6 +1,38 @@
 <Solution>
   <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Domain/BuildingBlocks.Domain.csproj" />
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Messaging/BuildingBlocks.Messaging.csproj" />
+  </Folder>
   <Folder Name="/src/Host/">
     <Project Path="src/Host/PetAdoption.Api/PetAdoption.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/Identity.Application/Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/Identity.Domain/Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/Identity.Infrastructure/Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/InterestMatching/">
+    <Project Path="src/Modules/InterestMatching/InterestMatching.Application/InterestMatching.Application.csproj" />
+    <Project Path="src/Modules/InterestMatching/InterestMatching.Contracts/InterestMatching.Contracts.csproj" />
+    <Project Path="src/Modules/InterestMatching/InterestMatching.Domain/InterestMatching.Domain.csproj" />
+    <Project Path="src/Modules/InterestMatching/InterestMatching.Infrastructure/InterestMatching.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/PetPublishing/">
+    <Project Path="src/Modules/PetPublishing/PetPublishing.Application/PetPublishing.Application.csproj" />
+    <Project Path="src/Modules/PetPublishing/PetPublishing.Contracts/PetPublishing.Contracts.csproj" />
+    <Project Path="src/Modules/PetPublishing/PetPublishing.Domain/PetPublishing.Domain.csproj" />
+    <Project Path="src/Modules/PetPublishing/PetPublishing.Infrastructure/PetPublishing.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/ArchitectureTests/">
+    <Project Path="tests/ArchitectureTests/PetAdoption.ArchitectureTests/PetAdoption.ArchitectureTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/PetAdoption.IntegrationTests/PetAdoption.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/PetAdoption.UnitTests/PetAdoption.UnitTests.csproj" />
   </Folder>
 </Solution>
