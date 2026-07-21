@@ -1,6 +1,6 @@
 @PetAdoption.Api_HostAddress = http://localhost:5283
 
-GET {{PetAdoption.Api_HostAddress}}/weatherforecast/
+GET {{PetAdoption.Api_HostAddress}}/health
 Accept: application/json
 
 ###

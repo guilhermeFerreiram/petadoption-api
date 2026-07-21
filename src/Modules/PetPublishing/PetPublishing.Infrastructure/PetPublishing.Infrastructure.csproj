@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\PetPublishing.Application\PetPublishing.Application.csproj" />
+    <ProjectReference Include="..\PetPublishing.Domain\PetPublishing.Domain.csproj" />
+    <ProjectReference Include="..\..\InterestMatching\InterestMatching.Contracts\InterestMatching.Contracts.csproj" />
+  </ItemGroup>
+</Project>

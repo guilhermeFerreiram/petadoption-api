@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\PetPublishing.Domain\PetPublishing.Domain.csproj" />
+  </ItemGroup>
+</Project>
